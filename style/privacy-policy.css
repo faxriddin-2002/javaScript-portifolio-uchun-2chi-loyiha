@@ -1,0 +1,61 @@
+.privacy__policy{
+  position: relative;
+  top: 40px;
+}
+.privacy__policy .page__title {
+  font-size: 45px;
+}
+.privacy__policy_items {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 80px;
+  margin: 60px 0 40px 0;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.seciton__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(35, 45, 50, 1);
+}
+.date{
+  margin: 30px 0;
+}
+p{
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(35, 45, 50, 1);
+  text-transform: capitalize;
+}
+span{
+  color: rgba(255, 0, 102, 1);
+}
+div{
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(35, 45, 50, 1);
+  text-transform: capitalize;
+}
+.privacy__policy h3{
+  margin: 50px 0 25px;
+}
+.privacy__policy div{
+  margin-bottom: 25px  ;
+}

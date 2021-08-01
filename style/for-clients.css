@@ -1,0 +1,72 @@
+.for__clients{
+  position: relative;
+  top: 40px;
+  margin-bottom: 200px;
+}
+.brokers,
+.carriers,
+.owner__operators {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 80px;
+  margin: 60px 0 40px 0;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.brokers span,
+.carriers span,
+.owner__operators span {
+  color: rgba(255, 0, 102, 1);
+}
+.brokers__items,
+.carriers__items,
+.owner__operators__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 35px 0;
+}
+.brokers__item {
+  width: 48%;
+}
+.brokers__item_inners,
+.carriers_item_inners,
+.owner__operators_item_inners {
+  display: flex;
+  align-items: center;
+  margin: 25px 0;
+}
+.brokers__item_inners h4,
+.carriers_item_inners h4, 
+.owner__operators_item_inners h4 {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(35, 45, 50, 1);
+}
+.for__clients .fa-check {
+  color: rgba(130, 183, 211, 1);
+  margin-right: 40px;
+  border: 1px solid rgba(130, 183, 211, 1);
+  padding: 5px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+/* MEDIA 1024px */
+@media screen and (max-width: 1024px) {
+  .about__two_items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* MEDIA 1024px END */

@@ -1,0 +1,197 @@
+.course__registration {
+  padding:70px 0  145px;
+}
+.course__registration_top_items {
+  display: flex;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.course__registration_top_item:first-child {
+}
+.course__registration_top_item:last-child .section__title {
+  font-size: 62px;
+  margin-left: 290px;
+  margin-bottom: 0;
+}
+.course__registration_bottom_items {
+  display: flex;
+  justify-content: space-between;
+}
+.course__registration_bottom_item:first-child h3 {
+  margin-bottom: 25px;
+}
+.course__registration_bottom_item:last-child {
+}
+.course__registration_form {
+  width: 828px;
+  background: #ffffff;
+  box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.1);
+  padding: 100px 90px 40px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.form__title {
+  margin-bottom: 70px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: rgba(35, 45, 50, 1);
+}
+label {
+  margin: 10px 0;
+  /* display: block; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-transform: capitalize;
+}
+label span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #8b8b8b;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0 20px 0;
+  padding: 15px;
+  background: #ffffff;
+  border: 2px solid #dde2e4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.checkbox__items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.checkbox__items_inner {
+  display: flex;
+  align-items: center;
+  margin: 35px 0;
+}
+.checkbox__item label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.checkbox__items_inner:first-child {
+  margin-right: 60px;
+}
+.checkbox__item:last-child {
+}
+.input__checkbox {
+  width: 34px;
+  height: 34px;
+  margin-right: 20px;
+  border: 2px solid #dde2e4;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+input:last-child {
+  margin-bottom: 0;
+}
+input:active {
+  border: none;
+  outline: none;
+}
+.form__btn {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  background: linear-gradient(93.62deg, #ff0066 -11.37%, #ff1585 102.48%);
+  color: rgba(255, 255, 255, 1);
+  margin-top: 40px;
+  padding: 25px 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* MEDIA 1210px */
+@media screen and (max-width: 1210px) {
+ .course__registration_bottom_items{
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ .course__registration_bottom_item{
+   width: 90%;
+   margin: 30px 0;
+ }
+ .course__registration_form{
+   width: 100%;
+  padding: 55px;
+ }
+}
+/* MEDIA 1210px END */
+
+/* MEDIA 1024px */
+@media screen and (max-width: 1024px) {
+  .course__registration_top_item:last-child .section__title{
+    font-size: 45px;
+    margin-left: 200px;
+  }
+}
+/* MEDIA 1024px END */
+
+/* MEDIA 768px */
+@media screen and (max-width: 1024px) {
+  .course__registration_top_items{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .course__registration_top_item{
+    margin: 15px 0;
+  }
+  .course__registration_top_item:last-child .section__title{
+    margin-left: 0;
+  }
+}
+/* MEDIA 768px END */
+
+/* MEDIA 620 */
+@media screen and (max-width: 620px) {
+  .checkbox__items_inner {
+    margin: 15px 0;
+}
+}
+/* MEDIA 620 END */
